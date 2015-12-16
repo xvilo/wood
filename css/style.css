@@ -1,0 +1,200 @@
+header.site-header{
+	height:80px;
+	width: 100%;
+	position: fixed;
+	top:0px;
+	background: #D2C6AE;
+	z-index: 100;
+}
+
+.admin-bar header.site-header{
+	top:32px;
+}
+
+div.site-content{
+	margin-top: 81px;
+}
+
+#colophon{border-top:1px solid #979797;}
+#colophon{font-size: 12px; color: #555555;}
+
+#content, #colophon, .centered{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0em 1em;
+}
+
+.site-content{
+	margin: 81px auto 0px auto!important;
+}
+
+#breadcrumbs{
+	margin-left: 100px;
+}
+
+.site-branding{
+	float: left;
+}
+
+.clear{
+	clear:both;
+}
+
+header .centered{
+	text-align: center;
+}
+
+.old *, h1, h2, h3, h4, h5, h6{
+	font-family: 'Droid Serif', serif;
+}
+nav.main-navigation {margin-top:25px;}
+.main-navigation li a {text-transform: uppercase;font-weight: 400;color: #131313;}
+.main-navigation li a:hover, .main-navigation li.current-menu-item a{border-bottom: 2px solid #131313}
+.main-navigation li {margin-right: 50px;}
+.main-navigation li:last-child {margin-right: 0px;}
+
+
+.short{
+	width: 20%;
+    height: 1px;
+    background: white;
+    display: block;
+    margin-top: 25px;
+}
+
+.van-eigen-bodem {box-sizing: border-box!important; padding: 2em 2em;}
+.van-eigen-bodem h1{
+	font-weight: 400;
+    font-size: 40px;
+}
+
+p#breadcrumbs{color:#B1B1B1; font-size:12px; margin-top:20px;}
+
+.site-info p.left{float: left;}
+.site-info p.right{float: right;}
+
+.preview *{-webkit-transition: all .2s ease;transition: all .2s ease;}
+.preview .container{ width: 100%; background-repeat: no-repeat; background-position: center center; -webkit-background-size: cover!important; -moz-background-size: cover!important; -o-background-size: cover!important; background-size: cover!important;  margin-top:20px;
+}	
+.preview .container .outer {width: 100%;padding-top: 50%; position: relative; display: block;}
+.preview .container .outer .inner {position: absolute; display:block; top: 0;left: 0;right: 0;bottom: 0; overflow: hidden; height: 80%;border: 1px solid white; margin: 15px; background:rgba(255,255,255,0.13); opacity: 0;}
+.preview .container .outer .inner h3 {font-size: 20px;color: white;text-align: center;font-weight: 400;margin-top:7px; margin-bottom: 0px; white-space: nowrap;overflow: hidden; text-overflow: ellipsis;}
+.preview .container .outer .inner .short {margin: 7px auto 7px auto;}
+.preview .container .outer .inner p {font-size: 12px; color:white;/* white-space: nowrap;overflow: hidden; text-overflow: ellipsis; */ text-align: center; margin: 12px;}
+
+.preview .container .outer .inner {opacity: 1;}
+.preview .container .outer {background: rgba(122,44,21,0.58);}
+
+#content #primary, #content #secondary{float: left; box-sizing: border-box;}
+#content #primary{width: 75%; padding-right: 25px;}
+#content #secondary{width: 25%;padding-top: 37px;}
+
+aside.widget {border:2px solid #D3C6AE;}
+aside.widget h2{display: block; padding: 10px; background: #D3C6AE; margin-top:0px;font-size: 20px;font-weight: 400;text-align: center;}
+
+.archive article{border: 1px solid #D3C6AE; padding: 0em 1em;}
+.archive header.entry-header h2{margin-bottom: 0px;}
+
+.social, .shoplink {
+    display: inline-block;
+    background: #717171;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 30px;
+}
+.social.facebook {background: #3b5998}
+.social.twitter {background: #4099ff}
+.social.linkedin {background: #007bb5}
+.shoplink {margin-left:10px;padding-top:4px; background:#555555;}
+.shoplinks {float: right;margin-top: 22px;}
+.cart-amount{
+	    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    background: red;
+    border-radius: 20px;
+    padding-top: 2px;
+    margin-top: -20px;
+    margin-left: 12px;
+}
+
+.login{max-width: 360px;margin: 0 auto!important; display: block;}
+.cart-empty, .return-to-shop{text-align: center;}
+
+ul.products li.product{border:1px dashed #EEECEE; padding: 0.5em!important; border-radius: 5px; min-height: 350px!important; text-align: center;}
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary {
+    float: right;
+    width: 31%;
+}
+
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+    float: left;
+    width: 55%;
+    margin-left: 7%;}
+    
+.woocommerce div.product form.cart div.quantity {float:none}
+.single_add_to_cart_button{margin-top:1em!important;    width: 100%!important;
+    padding: 0.7em!important;
+    font-size: 1.2em!important;}
+    
+.usp ul{margin:0px; padding: 0px;}
+.usp ul li{list-style-type: none; font-size: 12px; margin: 10px 0px;}
+.usp hr {margin:10px 0px;}
+
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {width:100%;}
+.woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals{width: 100%;}
+.woocommerce form {width: 100%;    margin-right: 2%;}
+p.wc-cart-shipping-notice {
+    display: none!important;
+}
+
+.woocommerce form.woocommerce-checkout{width: 100%;}
+
+#wpadminbar {
+    position: fixed!important;
+}
+
+#menu-icon{    display: inline-block;padding: 0.5em;border: 2px solid black;margin-top: 17px;cursor: pointer;}
+
+.mobile-nav .main-navigation ul{
+		display: block!important;
+	    list-style: none;
+	    margin: 0;
+	    padding-left: 0;
+	    position: absolute;
+	    width: 100vw;
+	    top: 80px;
+	    left: 0px;
+	    background: #D2C5AD;
+	        border-top: 2px solid black;
+	}
+.mobile-nav .main-navigation ul li{float: none;margin-right: 0px;}
+.mobile-nav .main-navigation ul li a{border-bottom: 2px solid black; padding: 1em 0px;}
+.mobile-nav .site-branding img{opacity:0;}
+
+@media (min-width: 600px){
+	#menu-icon{display: none;}
+	.woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals{width: 38%; float: left;}
+	.woocommerce form {width: 58%; float: left;    margin-right: 2%;}
+	.preview .container .outer .inner {opacity: 0;}
+	.preview:hover .container .outer .inner {opacity: 1;}
+	.preview .container .outer {background: rgba(122,44,21,0.0);}
+	.preview:hover .container .outer {background: rgba(122,44,21,0.58);}
+	
+	.flexbox {
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  overflow: hidden;
+	}
+	
+	.flexbox .wpb_column p{
+		margin: 0!important;
+	}
+	
+	#content, #colophon, .centered{padding: 0em;}
+}
